@@ -4,9 +4,5 @@
 __pycache__/
 DOB_Job_Application_Filings.csv
 DOB_Permit_Issuance.csv
-*.csv
 *.pdf
-file_download_proofing.ipynb
-file_extraction_proofing.ipynb
-pdf_html.txt
 temp.html
