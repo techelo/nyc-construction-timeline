@@ -6,3 +6,4 @@ DOB_Job_Application_Filings.csv
 DOB_Permit_Issuance.csv
 *.pdf
 temp.html
+ghostdriver.log
