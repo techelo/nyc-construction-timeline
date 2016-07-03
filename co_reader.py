@@ -179,7 +179,8 @@ def _copy_pdf_using_ocr(pdf_filename):
 
     This method returns the filename of the freshly converted PDF.
     """
-    subprocess.Popen("pypdfocr {0}".format(pdf_filename), shell=True)
+    p = subprocess.Popen("pypdfocr {0}".format(pdf_filename), shell=True)
+    p.wait()
     return pdf_filename.replace(".pdf", "_ocr.pdf")
 
 
@@ -195,6 +196,7 @@ def _harvest_certificate_date_from_pdf(ocr_pdf_link):
     """
     p = subprocess.Popen(["pdf2txt.py", ocr_pdf_link], stdout=subprocess.PIPE)
     output = p.communicate()[0]
+    p.wait()
     # Dates must be of the form "12/24/2012" to get read at this juncture.
     date_strs = re.findall("[0-9]{2}[/][0-9]{2}[/][0-9]{4}", output)
     print(date_strs)
