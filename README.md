@@ -1,4 +1,9 @@
 ## README
+### Project Description
+
+This project examines the timeline for going from submitting your first new building job application to getting your
+first new building construction permit to getting your first new building certificate of occupancy (in New York City).
+How long does that all take? I set out to find out...
 
 ### Contents
 
