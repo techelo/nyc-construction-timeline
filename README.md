@@ -59,8 +59,10 @@ observed period dependent on when the initial permit was filed. In statistical t
  a [censored](https://en.wikipedia.org/wiki/Censoring_(statistics)) [time-series](https://en.wikipedia.org/wiki/Time_series)
 dataset, requiring certain interpretive care.
 
-As an aside, I also examined, more briefly, the trend in the daily/weekly volumes of permit responses by the DOB
+I also examined, more briefly, the trend in the daily/weekly volumes of permit responses by the DOB
 (overall result: reasonably stable in the long term, reasonably volatile in the short).
+
+For still more details read the memo.
 
 ### Contents
 
