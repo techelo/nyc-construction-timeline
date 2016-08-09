@@ -129,9 +129,9 @@ You will need a `Python 2.7` environment booted up with the following libraries:
 **You can install everything all at once using the packaged `environment.yml` by running `conda env create`**.
 
 Notably, `pdfminer` (using the utility executable `pdf2txt.py`) is used to scrape text from the Certificate of
-Occupacny PDFs using a command like the following one:
+Occupancy PDFs using a command like the following one:
 
-    pypdfocr marshalls_2012_record.pdf
+    pdf2txt.py marshalls_2012_record.pdf
 
 (You do not need to do so yourself manually; this is just how, internally, `co_reader` operates.)
 
