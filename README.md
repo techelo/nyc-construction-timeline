@@ -36,10 +36,12 @@ interesting, I chose to focus on that. That is, while the code for building a ap
 exists, as demarcated below, I haven't run any analytics on it (at least none that I'm confident in).
 
 In the second case, the  we are fuzzy matching permits with certificates of occupancy. In this case we invoke
-[BISweb](http://a810-bisweb.nyc.gov/bisweb/bsqpm01.jsp), DOB's impressive albiet byzantine 2001-era mainframe
+[BISweb](http://a810-bisweb.nyc.gov/bisweb/bsqpm01.jsp), DOB's impressive albeit byzantine 2001-era mainframe
 application that is the public system of record for all (physical) things buildings, including their certificates of
 occupancy, the bits of paper a new building gets when it finishes construction that demonstrates that it is
 certifiably safe for inhabitation.
+
+(What the heck does a certificate of occupancy look like? I'm glad you asked! [I put together an example set you can parooze through](https://github.com/ResidentMario/nyc-certificates-of-occupancy) in a seperate repository.
 
 However, this data is locked up in PDF form, requiring extraction of data where it effectively literally didn't exist
 before. This is not the first project which reads data from BISweb, as [a quick search on GitHub attests](https://github.com/search?q=bisweb&type=Code&utf8=%E2%9C%93),
